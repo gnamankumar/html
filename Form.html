@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Form in HTML</title>
+	</head>
+	
+	<body>
+		<form method="post" action="#">
+			Name:<input type="text" id="name" name="name" value="name" ><br>
+			Password:<input type="password" id="pwd" name="pwd" ><br>
+			Address:<textarea rows="10" cols="100" name="address" id="address">
+					</textarea><br>
+			
+			Gender:<input type="radio" value="Male" id="gender" name="gender">Male
+						
+					<input type="radio" value="Female" name="gender">Female
+					
+					<input type="radio" value="other" name="gender">Other<br>
+
+			<h1>Select your language</h1>
+
+				<input type="checkbox" value="C" name="c">C<br>
+				
+				<input type="checkbox" value="Java" name="java">Java<br>
+
+		<h1>Select your country</h1>
+<select name="country">
+<option name="india" value="India">India</option>
+<option name="USA" value="USA">USA</option>
+<option name="UK" value="UK" selected>UK</option>
+</select><br>
+<button>Select</button>
+<input type="submit" value="Submit" name="Submit" id="Submit">
+<input type="reset" value="Clear" name="reset" id="reset">
+</form>
+</body>
+</html>
