@@ -1,24 +1,24 @@
 fieldset {
-            width: 38%;
-            margin-left: 502px;
-            padding: 45px;
-            background-color: aqua;
-            border-radius: 24px;
+            width: 38% !important;
+            margin-left: 502px !important;
+            padding: 45px !important;
+            background-color: aqua !important;
+            border-radius: 24px !important;
         }
 
         .submit {
-            padding: 10px;
-            border-radius: 20px;
-            width: 100px;
-            background-color: orange;
+            padding: 10px !important;
+            border-radius: 20px !important;
+            width: 100px !important;
+            background-color: orange !important;
         }
 
         .search {
-            padding: 5px;
-            width: 300px;
-            border-radius: 20px;
+            padding: 5px !important;
+            width: 300px !important;
+            border-radius: 20px !important;
         }
 
         .searchpro {
-            text-align: center;
+            text-align: center !important;
         }
